@@ -5,6 +5,8 @@ This extension enhances the (new) Github notification page with:
 - all notifications are automatically checked (useful when displaying only unread)
 - list of all pull requests underneath the notifications
 
+![Screenshot](https://github.com/gyfis/github-notifications-enhance-extension/blob/master/screenshot1.png)
+
 
 ## How to install
 
