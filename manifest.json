@@ -1,0 +1,16 @@
+{
+  "name": "Github notification page enhancer",
+  "version": "0.6",
+  "description": "Enhancing the github notifications page with information about pull requests that you're engaged in",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/notifications*"],
+      "js": ["script.js"]
+    },
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["notifications.js"]
+    }
+  ]
+}
